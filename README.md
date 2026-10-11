@@ -1,6 +1,6 @@
 # ZTE Factory Mode GUI
 
-Windows and Linux GUI for enabling Telnet on supported ZTE GPON ONU/ONT devices. Native C# / Avalonia port of [zte_modem_tools](https://github.com/langit7/zte_modem_tools); Python is not required.
+Windows, macOS, and Linux GUI for enabling Telnet on supported ZTE GPON ONU/ONT devices. Native C# / Avalonia port of [zte_modem_tools](https://github.com/langit7/zte_modem_tools); Python is not required.
 
 ## Supported functions
 
@@ -19,6 +19,10 @@ Devices/firmware reported by the Python project:
 | F670L | `V9.0.11P` |
 
 GUI compatibility depends on firmware. Hardcode-file decryption is available in the Python project only.
+
+## macOS
+
+Choose the Apple Silicon (`macos-arm64`) or Intel (`macos-x64`) release package. Extract the archive, then open `ZteFactoryModeGui.app`. These packages are unsigned and not notarized. If macOS blocks the first launch, Control-click the app, choose **Open**, and confirm.
 
 ## How to use
 
