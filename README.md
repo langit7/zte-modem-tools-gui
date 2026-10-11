@@ -27,7 +27,7 @@ Choose the Apple Silicon (`macos-arm64`) or Intel (`macos-x64`) release package.
 ## How to use
 
 1. Download your Windows (x64 or x86 32-bit) or Linux package from [Releases](https://github.com/langit7/zte-modem-tools-gui/releases/latest) and extract it.
-2. Windows: run `ZteModemGui.exe`. Linux: run `chmod +x ZteModemGui` and `./ZteModemGui` in a graphical desktop session. Release packages include .NET.
+2. Windows: run `ZteModemGui.exe`. macOS: open `ZteFactoryModeGui.app`. Linux: run `chmod +x ZteModemGui` and `./ZteModemGui` in a graphical desktop session. Release packages include .NET.
 3. Enter the modem IPv4 address (default `192.168.1.1`), HTTP port (`80`) and Telnet port (`23`).
 4. Enter the factory username/password, for example `admin` / `admin` if that is your modem's login. Alternatively, check **Use known usernames/passwords**.
 5. Select **telnet**, **open**, **Temporary**, then click **Run**. Verified Telnet credentials appear below the log. Passwords are visible.
